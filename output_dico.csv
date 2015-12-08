@@ -3,8 +3,8 @@ herf_rg,Sequential transitions,Gas cheaper than coal,#1f78b4,40
 simu_rg,Overlaping transitions,Gas cheaper than coal,#a6cee3,30
 fast_rg,Starting with both,Gas cheaper than coal,#b2df8a,20
 befo_rg,Starting with renewable,Gas cheaper than coal,#33a02c,10
-nothing,,,#af8dc3,0
-no_gc,Using only renewable, ,#af8dc3,0
+nothing,Using only renewable, ,#cab2d6,0
+no_gc,Investing only in renewable, ,#6a3d9a,0
 herf_rc,Sequential transitions,Coal cheaper than gas,#e31a1c,-40
 simu_rc,Overlaping transitions,Coal cheaper than gas,#fb9a99,-30
 fast_rc,Starting with both,Coal cheaper than gas,#fdbf6f,-20
