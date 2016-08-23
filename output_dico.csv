@@ -1,11 +1,11 @@
-code,transition_type,fossil_order,color,value
-herf_rg,Sequential transitions,Gas cheaper than coal,#1f78b4,40
-simu_rg,Overlaping transitions,Gas cheaper than coal,#a6cee3,30
-fast_rg,Starting with both,Gas cheaper than coal,#b2df8a,20
-befo_rg,Starting with renewable,Gas cheaper than coal,#33a02c,10
-nothing,Using only renewable, ,#cab2d6,0
-no_gc,Investing only in renewable, ,#6a3d9a,0
-herf_rc,Sequential transitions,Coal cheaper than gas,#e31a1c,-40
-simu_rc,Overlaping transitions,Coal cheaper than gas,#fb9a99,-30
-fast_rc,Starting with both,Coal cheaper than gas,#fdbf6f,-20
-befo_rc,Starting with renewable,Coal cheaper than gas,#ff7f00,-10
+code,transition_type,fossil_order,color,value,marker,marker comment
+herf_rg,Sequential transitions,Gas cheaper than coal,#1f78b4,40,v,tri
+simu_rg,Overlaping transitions,Gas cheaper than coal,#a6cee3,30,<,tri
+fast_rg,Starting with both,Gas cheaper than coal,#b2df8a,20,>,tri
+befo_rg,Starting with renewable,Gas cheaper than coal,#33a02c,10,^,tri
+nothing,Using only renewable,Limit cases,#f781bf,0,x,cross
+no_gc,Investing only in renewable,Limit cases,#6a3d9a,0,+,cross
+herf_rc,Sequential transitions,Coal cheaper than gas,#e31a1c,-40,D,losange
+simu_rc,Overlaping transitions,Coal cheaper than gas,#fb9a99,-30,s,square
+fast_rc,Starting with both,Coal cheaper than gas,#fdbf6f,-20,d,losange
+befo_rc,Starting with renewable,Coal cheaper than gas,#ff7f00,-10,o,circle
